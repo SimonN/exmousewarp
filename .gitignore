@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/exmousewarp
+exmousewarp.so
+exmousewarp.dylib
+exmousewarp.dll
+exmousewarp.a
+exmousewarp.lib
+exmousewarp-test-*
+*.exe
+*.o
+*.obj
+*.lst

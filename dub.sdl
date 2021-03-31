@@ -1,0 +1,23 @@
+name "exmousewarp"
+description "Allegro 5's ex_mouse_warp in D"
+authors "Simon"
+copyright "public domain"
+license "public domain"
+
+dependency "allegro" version=">=4.0.4"
+
+libs "allegro-5" platform="linux"
+libs "allegro-5" platform="dragonflybsd"
+libs "allegro-5" platform="freebsd"
+libs "allegro-5" platform="netbsd"
+libs "allegro-5" platform="openbsd"
+libs "allegro-5" platform="solaris"
+libs "allegro" platform="osx"
+libs "allegro" platform="windows"
+libs "allegro_color"
+libs "allegro_font"
+libs "allegro_primitives"
+
+# lflags "-L/subsystem:windows" platform="windows-dmd"
+lflags "-subsystem:windows" "-entry:mainCRTStartup" platform="windows-ldc"
+lflags "-subsystem:windows" "-entry:mainCRTStartup" platform="windows-ldc2"
