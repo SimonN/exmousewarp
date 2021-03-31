@@ -16,4 +16,8 @@ Build instructions
     * On Debian/Ubuntu: `# apt-get install pkgconf liballegro5-dev`, this will not install any addons for audio, text, ..., those aren't needed for this minimal example.
     * On macOS: `brew install allegro`
 
-3. Clone this _exmousewarp_ repository, enter its main directory, run `dub`.
+3. Clone this _exmousewarp_ repository. Enter its main directory.
+
+4. Build and run with:
+
+    dub
